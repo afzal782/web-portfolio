@@ -7,6 +7,9 @@ body{
 h1{
   font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .name{
     color: orangered;
 }
@@ -25,12 +28,43 @@ h1{
 }
 section{
     height: 500px;
+    padding-bottom: 100px;
 }
-.link-button{
+.link-button{ba
     text-decoration: none;
    background-image:linear-gradient(45deg, red, orangered);
     padding: 10px 20px;
     border-radius: 6px;
     color: white;
     font-weight: 700;
+}
+.dream-area{
+     background-image: url("images/dream-bg.png");
+     background-repeat: no-repeat;
+     background-position: right;
+}
+.single{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+    background-color: white;
+
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#world-class{
+    border-left: 7px solid;
+   border-image: linear-gradient(180deg, lightsalmon, tomato );
+   border-image-slice: 1;
+} 
+#child{
+    border-left: 7px solid;
+   border-image: linear-gradient(180deg,blue, cyan );
+   border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
